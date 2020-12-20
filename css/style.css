@@ -4,6 +4,12 @@ body  {
     zoom: 1.8;
 }
 
+p {
+    text-align: center;
+    font-size: xx-large;
+
+}
+
 .left { 
     float: left;
 }
@@ -39,21 +45,20 @@ body  {
     margin-right: 33px; 
 }
 
+.pingo {
+    position: relative;
+    width: 13px;
+    height: 15px;
+    border-radius: 100px;
+    background: white;
+    margin-top: 25px;
+    margin-left: 15px;
+}
+
 .mouth {
-    position: absolute;
-    z-index: 1;
-    top: 10px;
-    left: 0;
-    right: 0;
+    border-bottom: 8px solid #222;
     height: 110px;
     width: 115px;
     margin: 0 auto;
-    border-bottom: 8px solid #222;
     border-radius: 30%;
-}
-
-p {
-    text-align: center;
-    font-size: xx-large;
-
 }
